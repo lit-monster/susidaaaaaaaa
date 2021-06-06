@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "00D14228-73C1-4BDB-A69C-A9F28B1FB465"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "susida smartphone/TypingViewController.swift"
+            timestampString = "642221464.050989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "TypingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 202ad29f889f2f8b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.522045"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 68be3b8d355dd39f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.5246"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 61ddd92cda24f1f1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.5268281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 4734cd44ea66bce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.5297509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 53fd703709bf235c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; susida_smartphone.TypingViewController"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.5317481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "931">
+               </Location>
+               <Location
+                  uuid = "AEA278E0-04CF-4E30-85DF-E790B4E57F16 - 4407e439114f1260"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;susida_smartphone.TypingViewController&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717881.533601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "845">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "susida smartphone/TypingViewController.swift"
+            timestampString = "642221464.053275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "TypingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 202ad29f889f2f8b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.445848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 68be3b8d355dd39f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.449438"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 61ddd92cda24f1f1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.452949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 4734cd44ea66bce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.kotobaArray.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.455698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 53fd703709bf235c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; susida_smartphone.TypingViewController"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.457095"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "931">
+               </Location>
+               <Location
+                  uuid = "CF99275A-2E4C-4396-BEC8-2D5E0EB38B41 - 4407e439114f1260"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "susida_smartphone.TypingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;susida_smartphone.TypingViewController&gt;"
+                  moduleName = "susida smartphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakamurataiki/Desktop/susida%20smartphone/susida%20smartphone/TypingViewController.swift"
+                  timestampString = "627717885.458408"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "845">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
