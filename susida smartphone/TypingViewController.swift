@@ -97,9 +97,8 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
             
         }
         
-    if score >= 30
-    {
-        self.performSegue(withIdentifier: "toresult", sender: nil)
+        if score >= 30{
+            self.performSegue(withIdentifier: "toresult", sender: nil)
         }
         
         
@@ -114,4 +113,5 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
     }
     
 }
+
 

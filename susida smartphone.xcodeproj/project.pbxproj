@@ -59,7 +59,7 @@
 		3F09515E24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2020-08-14 16.30.20.png"; sourceTree = "<group>"; };
 		3F371D5E2493CD5D00FC9132 /* TypingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingViewController.swift; sourceTree = "<group>"; };
 		3F41126C2557CA6700AF7504 /* スマホ依存光沢感.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スマホ依存光沢感.png"; sourceTree = "<group>"; };
-		3F41126E2557CC3200AF7504 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = resultViewController.swift; path = "/Users/nakamurataiki/Desktop/susida smartphone/susida smartphone/resultViewController.swift"; sourceTree = "<absolute>"; };
+		3F41126E2557CC3200AF7504 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		3F4FCB23256A0377005BDA37 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch.png; sourceTree = "<group>"; };
 		3F5C2B59249F3A3200E0665A /* アートボード 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "アートボード 3.png"; path = "../../../Creative Cloud Files/1x/アートボード 3.png"; sourceTree = "<group>"; };
 		3F66CA07248CB2480050DA1C /* susida smartphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "susida smartphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };

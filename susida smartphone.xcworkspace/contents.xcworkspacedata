@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/nakamurataiki/Desktop/susida smartphone/susida smartphone/resultViewController.swift">
-   </FileRef>
-   <FileRef
       location = "group:susida smartphone.xcodeproj">
    </FileRef>
    <FileRef
