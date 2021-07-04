@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="susida_smartphone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="スクリーンショット 2020-08-14 16.30.20.png" translatesAutoresizingMaskIntoConstraints="NO" id="LDU-1H-6bK">
-                                <rect key="frame" x="40" y="53" width="240" height="354"/>
+                                <rect key="frame" x="40" y="97" width="240" height="354"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="354" id="oEB-xe-Pbm"/>
@@ -27,7 +27,7 @@
                                 <rect key="frame" x="88" y="50" width="144" height="115"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9t4-QI-X2f">
-                                <rect key="frame" x="34" y="295" width="246" height="118"/>
+                                <rect key="frame" x="34" y="383" width="246" height="118"/>
                                 <state key="normal" title="診断スタート" image="スクリーンショット 2020-12-20 15.30.14.png">
                                     <color key="titleColor" red="1" green="0.0068971485480000001" blue="0.1207287303" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -64,11 +64,11 @@
             <objects>
                 <viewController id="CA3-Ii-FKa" customClass="TypingViewController" customModule="susida_smartphone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0om-dj-4zg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1o-YH-AeQ">
-                                <rect key="frame" x="60" y="406" width="200" height="34"/>
+                                <rect key="frame" x="60" y="494" width="200" height="34"/>
                                 <color key="backgroundColor" red="0.64268944300518127" green="0.61165032050205281" blue="0.63727102533515101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="QBa-5x-Znv"/>
@@ -112,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EkA-8B-yJH">
-                                <rect key="frame" x="20" y="188" width="280" height="91"/>
+                                <rect key="frame" x="20" y="188" width="280" height="179"/>
                                 <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
@@ -149,7 +149,7 @@
             <objects>
                 <viewController id="o55-yX-Ows" customClass="resultViewController" customModule="susida_smartphone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAn-Nb-FoW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBZ-iq-Lnt">
@@ -171,7 +171,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiG-V3-Obz">
-                                <rect key="frame" x="61" y="446" width="75" height="57"/>
+                                <rect key="frame" x="61" y="270" width="75" height="57"/>
                                 <color key="backgroundColor" red="1" green="0.0068971485480000001" blue="0.1207287303" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="戻る"/>
@@ -185,12 +185,13 @@
                         <constraints>
                             <constraint firstItem="RmZ-pA-uxa" firstAttribute="trailing" secondItem="hBZ-iq-Lnt" secondAttribute="trailing" constant="61" id="0Gb-s6-PnI"/>
                             <constraint firstItem="hBZ-iq-Lnt" firstAttribute="leading" secondItem="RmZ-pA-uxa" secondAttribute="leading" constant="61" id="6fW-Lw-POI"/>
-                            <constraint firstItem="TiG-V3-Obz" firstAttribute="top" secondItem="hBZ-iq-Lnt" secondAttribute="bottom" constant="300" id="cvR-fG-BYq"/>
+                            <constraint firstItem="RmZ-pA-uxa" firstAttribute="bottom" secondItem="TiG-V3-Obz" secondAttribute="bottom" constant="221" id="VcW-sd-ZUX"/>
                             <constraint firstItem="hBZ-iq-Lnt" firstAttribute="top" secondItem="RmZ-pA-uxa" secondAttribute="top" constant="74" id="p1B-fs-3Eu"/>
                             <constraint firstItem="TiG-V3-Obz" firstAttribute="leading" secondItem="RmZ-pA-uxa" secondAttribute="leading" constant="61" id="rDd-cs-pmS"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labell" destination="hBZ-iq-Lnt" id="TB2-ul-JDO"/>
                         <outlet property="smartphoneimage" destination="UZQ-ak-Z36" id="cSt-S1-oNJ"/>
                         <outlet property="switchimage" destination="IdI-fB-cci" id="Erd-Wf-szX"/>
                     </connections>

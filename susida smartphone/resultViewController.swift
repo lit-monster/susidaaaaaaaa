@@ -8,17 +8,23 @@
 import UIKit
 
 class resultViewController: UIViewController {
+    
+    var count: Float = 0
+    
+    @IBOutlet var labell: UILabel!
     @IBOutlet var switchimage: UIImageView!
 @IBOutlet var smartphoneimage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         switchimage.image = UIImage(named:"switch.png")?.rotatedBy(degree: 30)
+        
+        labell.text = String(count)
     }
     
     @IBAction func back() {self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
-    }
+}
     /*
     // MARK: - Navigation
 
@@ -31,6 +37,7 @@ class resultViewController: UIViewController {
 
 
 extension UIImage {
+
     
     func rotatedBy(degree: CGFloat) -> UIImage {
         let radian = -degree * CGFloat.pi / 180
