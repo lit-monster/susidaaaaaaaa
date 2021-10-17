@@ -641,17 +641,20 @@
 			baseConfigurationReference = 059AFA46D4052550E2D8F9A4 /* Pods-susida smartphone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47Q4569W2Z;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.taikinakamura.susida-smartphone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lit.taikinakamura.susida-smartphone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -660,17 +663,20 @@
 			baseConfigurationReference = D88C495F265E6576467B0BE7 /* Pods-susida smartphone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47Q4569W2Z;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.taikinakamura.susida-smartphone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lit.taikinakamura.susida-smartphone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
