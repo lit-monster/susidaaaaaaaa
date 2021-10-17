@@ -76,7 +76,7 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
         if textField.text == kotobalabel.text{
             
             imageView.image = UIImage(named:"icon_139-1-2.png")
-            timer .invalidate()
+           
             score = score + 10
     
             self.scorelabel.text = String(self.score)
