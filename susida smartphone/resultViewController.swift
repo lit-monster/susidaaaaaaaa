@@ -19,6 +19,10 @@ class resultViewController: UIViewController {
         
         switchimage.image = UIImage(named:"switch.png")?.rotatedBy(degree: 30)
         
+        
+        
+        
+        
         labell.text = String(count)
     }
     
