@@ -22,6 +22,7 @@
 		3F66CA15248CB24C0050DA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F66CA13248CB24C0050DA1C /* LaunchScreen.storyboard */; };
 		3F66CA20248CB24D0050DA1C /* susida_smartphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66CA1F248CB24D0050DA1C /* susida_smartphoneTests.swift */; };
 		3F66CA2B248CB24D0050DA1C /* susida_smartphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66CA2A248CB24D0050DA1C /* susida_smartphoneUITests.swift */; };
+		3F67170B2740D8B30016F9D6 /* ibaraji04.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */; };
 		3F7CD67924E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67824E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png */; };
 		3F7CD67B24E634970045E993 /* 目が悪くなる.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67A24E634970045E993 /* 目が悪くなる.png */; };
 		3F7CD67D24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67C24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png */; };
@@ -75,6 +76,7 @@
 		3F66CA26248CB24D0050DA1C /* susida smartphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "susida smartphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F66CA2A248CB24D0050DA1C /* susida_smartphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = susida_smartphoneUITests.swift; sourceTree = "<group>"; };
 		3F66CA2C248CB24D0050DA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ibaraji04.ttf; sourceTree = "<group>"; };
 		3F7CD67824E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-08-13 16.10.05.png"; path = "../../スクリーンショット 2020-08-13 16.10.05.png"; sourceTree = "<group>"; };
 		3F7CD67A24E634970045E993 /* 目が悪くなる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "目が悪くなる.png"; path = "../../../Downloads/目が悪くなる.png"; sourceTree = "<group>"; };
 		3F7CD67C24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-08-14 16.22.19.png"; path = "../../スクリーンショット 2020-08-14 16.22.19.png"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				3F66CA13248CB24C0050DA1C /* LaunchScreen.storyboard */,
 				3F5C2B59249F3A3200E0665A /* アートボード 3.png */,
 				3F8FAE0C258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png */,
+				3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */,
 				3F66CA16248CB24C0050DA1C /* Info.plist */,
 				3F09515C24FB3A2C002F32F0 /* 真っ黒.jpeg */,
 				3F7CD67A24E634970045E993 /* 目が悪くなる.png */,
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F66CA15248CB24C0050DA1C /* LaunchScreen.storyboard in Resources */,
+				3F67170B2740D8B30016F9D6 /* ibaraji04.ttf in Resources */,
 				3F8FAE0D258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png in Resources */,
 				3F66CA12248CB24C0050DA1C /* Assets.xcassets in Resources */,
 				3F66CA10248CB2480050DA1C /* Main.storyboard in Resources */,

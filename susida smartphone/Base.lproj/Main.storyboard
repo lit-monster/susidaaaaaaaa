@@ -5,8 +5,14 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ibaraji04.ttf">
+            <string>ibaraji04</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -16,8 +22,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2020-12-20 15.21.24.png" translatesAutoresizingMaskIntoConstraints="NO" id="D78-SC-ywN">
+                                <rect key="frame" x="91" y="50" width="232" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="n0b-SK-I7C"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9t4-QI-X2f">
-                                <rect key="frame" x="57" y="548" width="300" height="118"/>
+                                <rect key="frame" x="57" y="461" width="300" height="118"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="J6K-zt-shT"/>
                                 </constraints>
@@ -28,20 +40,14 @@
                                     <segue destination="CA3-Ii-FKa" kind="presentation" id="N0m-r9-IPF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2020-12-20 15.21.24.png" translatesAutoresizingMaskIntoConstraints="NO" id="D78-SC-ywN">
-                                <rect key="frame" x="91" y="50" width="232" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="232" id="n0b-SK-I7C"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="D78-SC-ywN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="M1w-Xu-qSW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9t4-QI-X2f" secondAttribute="bottom" constant="50" id="RJa-HV-8By"/>
+                            <constraint firstItem="9t4-QI-X2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rhu-9Z-iCg"/>
                             <constraint firstItem="D78-SC-ywN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VZT-A1-je9"/>
-                            <constraint firstItem="9t4-QI-X2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lvQ-gL-G3V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9t4-QI-X2f" secondAttribute="bottom" constant="137" id="ZFv-nd-WD5"/>
                         </constraints>
                     </view>
                     <connections>
@@ -67,8 +73,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EkA-8B-yJH">
+                                <rect key="frame" x="98" y="186" width="179" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FK-0s-4d4">
-                                <rect key="frame" x="124.66666666666669" y="20.000000000000007" width="165" height="99.666666666666686"/>
+                                <rect key="frame" x="122.33333333333333" y="20" width="169.66666666666669" height="85"/>
                                 <attributedString key="attributedText">
                                     <fragment content="0.00">
                                         <attributes>
@@ -80,7 +91,7 @@
                                 <color key="highlightedColor" red="1" green="0.0068971485480000001" blue="0.1207287303" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1o-YH-AeQ">
-                                <rect key="frame" x="87" y="227.33333333333334" width="200" height="34.000000000000028"/>
+                                <rect key="frame" x="87" y="212.66666666666666" width="200" height="34"/>
                                 <color key="backgroundColor" red="0.64268944300518127" green="0.61165032050205281" blue="0.63727102533515101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -93,7 +104,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhE-Mj-vh7">
-                                <rect key="frame" x="157" y="157.33333333333334" width="100" height="21"/>
+                                <rect key="frame" x="157" y="142.66666666666666" width="100" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="O88-fh-e8x"/>
                                 </constraints>
@@ -101,11 +112,6 @@
                                 <color key="textColor" red="0.73494170979999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EkA-8B-yJH">
-                                <rect key="frame" x="117" y="186" width="179" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8CS-zX-8t9"/>
                         <color key="backgroundColor" systemColor="darkTextColor"/>
@@ -141,13 +147,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBZ-iq-Lnt">
-                                <rect key="frame" x="61" y="74" width="292" height="72"/>
-                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="61" y="74" width="292" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="292" id="2E1-Iu-gxt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ibaraji04" family="ibaraji04" pointSize="60"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="switch.png" translatesAutoresizingMaskIntoConstraints="NO" id="IdI-fB-cci">
@@ -158,11 +163,12 @@
                                 <rect key="frame" x="205" y="652" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiG-V3-Obz">
-                                <rect key="frame" x="61" y="438" width="75" height="57"/>
-                                <color key="backgroundColor" red="1" green="0.0068971485480000001" blue="0.1207287303" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="戻る"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiG-V3-Obz">
+                                <rect key="frame" x="39" y="500" width="147" height="41"/>
+                                <fontDescription key="fontDescription" name="ibaraji04" family="ibaraji04" pointSize="29"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="Btp-T7-Wg1"/>
                                 </connections>
@@ -186,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EUn-bU-I2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1924.6376811594205" y="118.52678571428571"/>
+            <point key="canvasLocation" x="1924.6376811594205" y="118.20652173913044"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.27142146080000001" green="0.32750585430000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -197,6 +203,12 @@
         <image name="スマホ依存光沢感.png" width="150" height="235"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

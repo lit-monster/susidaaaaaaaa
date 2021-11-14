@@ -18,7 +18,7 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
     var timer: Timer = Timer()
     
     var score: Int = 0
-  
+    
     
     @IBOutlet var imageView: UIImageView!
     
@@ -51,7 +51,7 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
     
     func question(){
         print("test")
-        let kotobaIndex = Int.random(in: 0...4)
+        let kotobaIndex = Int.random(in: 0...150)
         kotobalabel.text = kotobaArray[kotobaIndex]
         print("testaa")
     }
@@ -65,6 +65,8 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
         // キーボードを閉じる
         self.view.endEditing(true)
         
+        
+        
     }
     @IBAction func random(){
         
@@ -73,12 +75,14 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
         self.imageView.isHidden = false
         
         
+        
+        
         if textField.text == kotobalabel.text{
             
             imageView.image = UIImage(named:"icon_139-1-2.png")
-           
+            
             score = score + 10
-    
+            
             self.scorelabel.text = String(self.score)
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
@@ -86,26 +90,28 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
                 self.imageView.isHidden = true
             }
         }else{
+            
             imageView.image = UIImage(named:"icon_140.png")
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 self.score = self.score - 5
                 self.scorelabel.text = String(self.score)
                 self.imageView.isHidden = true
                 self.question()
+                
             }
+           
+            // MARK: - Navigation
             
-             // MARK: - Navigation
-             
-             // In a storyboard-based application, you will often want to do a little preparation before navigation
-//            {
-             // Get the new！教えて view controller using segue.destination.
-             // Pass the selected object to the new view controller.
-//             }
-             
+            // In a storyboard-based application, you will often want to do a little preparation before navigation
+            //            {
+            // Get the new！教えて view controller using segue.destination.
+            // Pass the selected object to the new view controller.
+            //             }
+            
             
             
         }
-        
+        self.typingtext.text = ""
         if score >= 50{
             self.performSegue(withIdentifier: "toresult", sender: nil)
         }
