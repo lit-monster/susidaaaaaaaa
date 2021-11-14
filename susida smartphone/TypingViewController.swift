@@ -79,6 +79,7 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
         
         if textField.text == kotobalabel.text{
             
+            self.imageView.isHidden = false
             imageView.image = UIImage(named:"icon_139-1-2.png")
             
             score = score + 10
