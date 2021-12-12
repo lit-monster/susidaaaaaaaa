@@ -13,7 +13,7 @@ class resultViewController: UIViewController {
     
     @IBOutlet var labell: UILabel!
     @IBOutlet var switchimage: UIImageView!
-@IBOutlet var smartphoneimage: UIImageView!
+    @IBOutlet var smartphoneimage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,19 +29,19 @@ class resultViewController: UIViewController {
     @IBAction func back() {self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destination.
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 
 extension UIImage {
-
+    
     
     func rotatedBy(degree: CGFloat) -> UIImage {
         let radian = -degree * CGFloat.pi / 180
