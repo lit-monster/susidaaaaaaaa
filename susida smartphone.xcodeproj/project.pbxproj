@@ -10,6 +10,7 @@
 		3F09515B24FB39FC002F32F0 /* 血しぶき.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09515A24FB39FC002F32F0 /* 血しぶき.png */; };
 		3F09515D24FB3A2C002F32F0 /* 真っ黒.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F09515C24FB3A2C002F32F0 /* 真っ黒.jpeg */; };
 		3F09515F24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F09515E24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png */; };
+		3F1F2EF52783F96C00595343 /* スクリーンショット 2020-08-13 16.10.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F2EF42783F96C00595343 /* スクリーンショット 2020-08-13 16.10.05.png */; };
 		3F371D5F2493CD5D00FC9132 /* TypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F371D5E2493CD5D00FC9132 /* TypingViewController.swift */; };
 		3F41126D2557CA6700AF7504 /* スマホ依存光沢感.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F41126C2557CA6700AF7504 /* スマホ依存光沢感.png */; };
 		3F41126F2557CC3200AF7504 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41126E2557CC3200AF7504 /* resultViewController.swift */; };
@@ -23,13 +24,12 @@
 		3F66CA20248CB24D0050DA1C /* susida_smartphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66CA1F248CB24D0050DA1C /* susida_smartphoneTests.swift */; };
 		3F66CA2B248CB24D0050DA1C /* susida_smartphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66CA2A248CB24D0050DA1C /* susida_smartphoneUITests.swift */; };
 		3F67170B2740D8B30016F9D6 /* ibaraji04.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */; };
-		3F7CD67924E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67824E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png */; };
 		3F7CD67B24E634970045E993 /* 目が悪くなる.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67A24E634970045E993 /* 目が悪くなる.png */; };
-		3F7CD67D24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD67C24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png */; };
 		3F7CD68124E77D7D0045E993 /* icon_140.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD68024E77D7C0045E993 /* icon_140.png */; };
 		3F7CD68324E77D8B0045E993 /* icon_139-1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CD68224E77D8B0045E993 /* icon_139-1-2.png */; };
 		3F8FAE0B258F2615005CDBCB /* スクリーンショット 2020-12-20 15.21.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FAE0A258F2615005CDBCB /* スクリーンショット 2020-12-20 15.21.24.png */; };
 		3F8FAE0D258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FAE0C258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png */; };
+		3FB875E127B98D7600803D58 /* 目が悪くなる.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB875E027B98D7600803D58 /* 目が悪くなる.png */; };
 		5753047D2810C1BE80EE812F /* Pods_susida_smartphoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF3E60BE24DB7E529554A76 /* Pods_susida_smartphoneTests.framework */; };
 		A1D0FFEF3589071005F5FFFE /* Pods_susida_smartphone_susida_smartphoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4165145B1F54274E1643DCD6 /* Pods_susida_smartphone_susida_smartphoneUITests.framework */; };
 		D57DC94DF0C56B6E3AC94689 /* Pods_susida_smartphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D94E6AD5D981442A42F60F /* Pods_susida_smartphone.framework */; };
@@ -58,6 +58,7 @@
 		3F09515A24FB39FC002F32F0 /* 血しぶき.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血しぶき.png"; sourceTree = "<group>"; };
 		3F09515C24FB3A2C002F32F0 /* 真っ黒.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "真っ黒.jpeg"; sourceTree = "<group>"; };
 		3F09515E24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2020-08-14 16.30.20.png"; sourceTree = "<group>"; };
+		3F1F2EF42783F96C00595343 /* スクリーンショット 2020-08-13 16.10.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-08-13 16.10.05.png"; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/スクリーンショット 2020-08-13 16.10.05.png"; sourceTree = "<group>"; };
 		3F371D5E2493CD5D00FC9132 /* TypingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingViewController.swift; sourceTree = "<group>"; };
 		3F41126C2557CA6700AF7504 /* スマホ依存光沢感.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スマホ依存光沢感.png"; sourceTree = "<group>"; };
 		3F41126E2557CC3200AF7504 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
@@ -77,13 +78,12 @@
 		3F66CA2A248CB24D0050DA1C /* susida_smartphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = susida_smartphoneUITests.swift; sourceTree = "<group>"; };
 		3F66CA2C248CB24D0050DA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ibaraji04.ttf; sourceTree = "<group>"; };
-		3F7CD67824E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-08-13 16.10.05.png"; path = "../../スクリーンショット 2020-08-13 16.10.05.png"; sourceTree = "<group>"; };
 		3F7CD67A24E634970045E993 /* 目が悪くなる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "目が悪くなる.png"; path = "../../../Downloads/目が悪くなる.png"; sourceTree = "<group>"; };
-		3F7CD67C24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット 2020-08-14 16.22.19.png"; path = "../../スクリーンショット 2020-08-14 16.22.19.png"; sourceTree = "<group>"; };
 		3F7CD68024E77D7C0045E993 /* icon_140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_140.png; sourceTree = "<group>"; };
 		3F7CD68224E77D8B0045E993 /* icon_139-1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_139-1-2.png"; sourceTree = "<group>"; };
 		3F8FAE0A258F2615005CDBCB /* スクリーンショット 2020-12-20 15.21.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2020-12-20 15.21.24.png"; sourceTree = "<group>"; };
 		3F8FAE0C258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2020-12-20 15.30.14.png"; sourceTree = "<group>"; };
+		3FB875E027B98D7600803D58 /* 目が悪くなる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "目が悪くなる.png"; path = "../../../Downloads/目が悪くなる.png"; sourceTree = "<group>"; };
 		4165145B1F54274E1643DCD6 /* Pods_susida_smartphone_susida_smartphoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_susida_smartphone_susida_smartphoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6975ECFF0E5789DD85BF2B71 /* Pods-susida smartphoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-susida smartphoneTests.release.xcconfig"; path = "Target Support Files/Pods-susida smartphoneTests/Pods-susida smartphoneTests.release.xcconfig"; sourceTree = "<group>"; };
 		75D94E6AD5D981442A42F60F /* Pods_susida_smartphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_susida_smartphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,11 +157,11 @@
 				3F8FAE0C258F26FD005CDBCB /* スクリーンショット 2020-12-20 15.30.14.png */,
 				3F67170A2740D8B20016F9D6 /* ibaraji04.ttf */,
 				3F66CA16248CB24C0050DA1C /* Info.plist */,
+				3FB875E027B98D7600803D58 /* 目が悪くなる.png */,
 				3F09515C24FB3A2C002F32F0 /* 真っ黒.jpeg */,
 				3F7CD67A24E634970045E993 /* 目が悪くなる.png */,
 				3F8FAE0A258F2615005CDBCB /* スクリーンショット 2020-12-20 15.21.24.png */,
-				3F7CD67824E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png */,
-				3F7CD67C24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png */,
+				3F1F2EF42783F96C00595343 /* スクリーンショット 2020-08-13 16.10.05.png */,
 				3F09515A24FB39FC002F32F0 /* 血しぶき.png */,
 				3F09515E24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png */,
 				3F7CD68224E77D8B0045E993 /* icon_139-1-2.png */,
@@ -330,15 +330,15 @@
 				3F09515F24FB3B87002F32F0 /* スクリーンショット 2020-08-14 16.30.20.png in Resources */,
 				3F09515D24FB3A2C002F32F0 /* 真っ黒.jpeg in Resources */,
 				3F7CD67B24E634970045E993 /* 目が悪くなる.png in Resources */,
+				3FB875E127B98D7600803D58 /* 目が悪くなる.png in Resources */,
 				3F41126D2557CA6700AF7504 /* スマホ依存光沢感.png in Resources */,
 				3F09515B24FB39FC002F32F0 /* 血しぶき.png in Resources */,
-				3F7CD67D24E673820045E993 /* スクリーンショット 2020-08-14 16.22.19.png in Resources */,
 				3F4FCB24256A0377005BDA37 /* switch.png in Resources */,
 				3F5C2B5A249F3A3200E0665A /* アートボード 3.png in Resources */,
 				3F8FAE0B258F2615005CDBCB /* スクリーンショット 2020-12-20 15.21.24.png in Resources */,
 				3F7CD68324E77D8B0045E993 /* icon_139-1-2.png in Resources */,
-				3F7CD67924E51F2A0045E993 /* スクリーンショット 2020-08-13 16.10.05.png in Resources */,
 				3F7CD68124E77D7D0045E993 /* icon_140.png in Resources */,
+				3F1F2EF52783F96C00595343 /* スクリーンショット 2020-08-13 16.10.05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +647,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -669,7 +669,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -691,7 +691,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47Q4569W2Z;
+				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphoneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,7 +713,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47Q4569W2Z;
+				DEVELOPMENT_TEAM = 9AD32JARUX;
 				INFOPLIST_FILE = "susida smartphoneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

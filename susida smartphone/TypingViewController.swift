@@ -46,6 +46,7 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender for: Any?) {
         let next = segue.destination as? resultViewController
+       // next?.timer = self.timer
         next?.count = self.count
     }
     
@@ -127,7 +128,8 @@ class TypingViewController: UIViewController, UITextFieldDelegate {
         }
         return true
     }
-    
+   
 }
 
 
+           

@@ -10,7 +10,9 @@ import UIKit
 class resultViewController: UIViewController {
     
     var count: Float = 0
-    
+  //  var timer: Float = 0
+    @IBOutlet var scorelabell: UILabel!
+    @IBOutlet var timerlabell: UILabel!
     @IBOutlet var labell: UILabel!
     @IBOutlet var switchimage: UIImageView!
     @IBOutlet var smartphoneimage: UIImageView!
@@ -21,9 +23,9 @@ class resultViewController: UIViewController {
         
         
         
+        scorelabell.text = String(count)
         
-        
-        labell.text = String(count)
+     //  timerlabell.text = String(timer)
     }
     
     @IBAction func back() {self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
